@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Information</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<style>
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please Fill-Up The Form</h2>
+            <form>
+                <label for="name"> Your Name:
+                <input id="name" type="text" placeholder="Your Name">
+            </label>
+            <label for="E-mail"> Your e-mail Address:
+                <input type="email" name="" id="email" placeholder="Your e-mail id">
+            </label>
+            <label for="Phone Number">Your Phone Number:
+                <input type="number" id="Phone" placeholder="Phone number">
+            </label>
+            <fieldset><legend>Pick One and Only</legend>
+                <label for="Mobile"> Mobile
+                    <input type="radio" name="device" id="Mobile">
+                </label>
+                <label for="Computer">
+                    Computer
+                    <input type="radio" name="device" id="Computer">
+                </label>
+                <label for="Tab">
+                    Tab 
+                    <input type="radio" name="device" id="Tab">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Pick one or More Devices</legend>
+                    <label for="Mobile"> Mobile
+                        <input type="checkbox" name="" id="Mobile">
+
+                    </label>
+                    <label for="Computer"> Computer
+                        <input type="checkbox" name="" id="Computer">
+
+                    </label>
+                    <label for="Tab"> Tab
+                        <input type="checkbox" name="" id="Tab">
+
+                    </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction:</legend>
+                <textarea name="Computer" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+            <input class="reset" type="reset" value="Reset">
+            <input class="submit" type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

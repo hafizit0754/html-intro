@@ -1,0 +1,14 @@
+.reset{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: tomato;
+    color: aliceblue;
+
+}
+.submit{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(20, 236, 20);
+    color: rgb(195, 235, 201);
+    
+}
